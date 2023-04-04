@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 
 function Header ()
 {
@@ -6,6 +8,7 @@ function Header ()
     <> 
     <h1 style ={{color:"red" , textAlign: "center"}}>Travel-Destination</h1>
     <hr  />
+    <Link to="/">Home</Link>
 
     
      </>
