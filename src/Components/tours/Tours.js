@@ -1,12 +1,13 @@
+//import { Route } from 'react-router';
 import './Tours.css'
 
 function Tours(props)
-{ const tours = props.tours;
+{ const f = props.tours;
     return(
         
         <>
     
-      {tours.map((tour) => (
+      {f.map((tour) => (
         <div>
           <h2 style={{ color: "orange"}}>Name of City:{tour.name}</h2>
           <img src={tour.image} alt={tour.name} />
